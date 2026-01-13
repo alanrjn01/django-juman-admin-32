@@ -4,7 +4,17 @@
 {% load juman_admin %}
 
 {% block extrastyle %}
+{{ block.super }}
 <link rel="stylesheet" type="text/css" href="{% static "admin/css/juman.css" %}" />
+<style>
+    :root { 
+        color-scheme: light !important; 
+    }
+    html, body { 
+        background-color: white !important; 
+        color: #333 !important; 
+    }
+</style>
 {% endblock %}
 
 {% block title %}{{ title }} | {% get_current_site_name %}{% endblock %}

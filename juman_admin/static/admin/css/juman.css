@@ -1,3 +1,26 @@
+:root {
+    color-scheme: light !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --body-bg: #fff !important;
+        --body-fg: #333 !important;
+        --body-quiet-color: #666 !important;
+        --body-loud-color: #000 !important;
+        --header-bg: #1d1d1f !important;
+        --header-color: #fff !important;
+        --breadcrumbs-bg: #f8f8f8 !important;
+        --link-color: #447e9b !important;
+        --link-hover-color: #036 !important;
+        --link-selected-color: #5b80b2 !important;
+    }
+    body {
+        background-color: #fff !important;
+        color: #333 !important;
+    }
+}
+
 #header {
 	background:#1d1d1f;
 }

@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 from juman_admin import VERSION
 
-github_url = 'https://github.com/maxi-89/django-juman-admin'
+github_url = 'https://github.com/alanrjn01/django-juman-admin-32'
 long_desc = '''
 %s
 
